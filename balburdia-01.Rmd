@@ -18,19 +18,28 @@ Calculadora:
 ```
 
 ```{r}
+
 install.packages("usethis")
+
 ```
 ```{r}
+
 library(usethis)
+
 ```
 
 
 ```{r}
-use_git_config(user.name = "Enoch Filho", user.email = "enoches@gmail.com")
+
+use_git_config(user.name = "Enoch Filho",
+               user.email = "enoches@gmail.com")
+
 ```
 
 ```{r}
+
 usethis::browse_github_token()
+
 ```
 #> ✔ Opening URL 'https://github.com/settings/tokens/new?scopes=repo,gist&description=R:GITHUB_PAT'
 #> ● Call `usethis::edit_r_environ()` to open '.Renviron'.
