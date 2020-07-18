@@ -1,20 +1,20 @@
 ---
 title: "Configurar git e github no computador"
+author: "Enoch Filho"
 output: html_notebook
 ---
 
 
-## O pacote usethis vai auxiliar na tarefa
 
+
+## O pacote usethis vai auxiliar na tarefa
 ```{r}
 # install.packages("usethis")
 library(usethis)
 ```
 
 
-
 ## Configurar git no computador
-
 ```{r}
 
 use_git_config(user.name = "Fulano de tal",
@@ -23,9 +23,7 @@ use_git_config(user.name = "Fulano de tal",
 ```
 
 
-
 ## Pegar/ fazer o token no github? 
-
 ```{r}
 
 usethis::browse_github_token()
@@ -48,7 +46,6 @@ usethis::edit_r_environ()
 ```
 
 
-## Fontes:  
-
-+ Zen do R  
+## Bibliografia:  
++ Zen do R (curso-r)  
 + Happy Git with R  

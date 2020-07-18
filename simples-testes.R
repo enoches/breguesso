@@ -13,6 +13,7 @@
 library(usethis)
 use_git_credentials()
 github_token()
+browse_github_token()
 edit_r_environ()
 
 # 2020-03-21 
