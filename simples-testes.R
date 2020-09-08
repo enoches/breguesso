@@ -1,5 +1,9 @@
 # Simples testes
 
+
+# RASCUNHO - PODE DELETAR
+
+
 # <<<<<<< HEAD
 # Criei um branch "primeiro-branch" e marquei pra não sincronizar com o remote.
 
